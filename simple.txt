@@ -1,0 +1,11 @@
+mkdir basic_repo
+cd basic_repo
+touch index.html style.css
+git init
+git add .
+git commit -m "Initial Commit"
+git add . 
+git commit -m "added html content and css style"
+git remote add origin https://github.com/brianle206/basic_repo.git
+git push origin master
+touch simple.txt
